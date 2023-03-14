@@ -16,6 +16,12 @@ body {
 .seawar {
     font-size: 24px;
     font-family: Calibri;
-    color: aquamarine;
+    font-weight: bold;
+    color: #0b83d3;
     margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.wrapper>div img {
+    border-radius: 5px;
 }
