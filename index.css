@@ -25,3 +25,30 @@ body {
 .wrapper>div img {
     border-radius: 5px;
 }
+
+.container {
+    display: flex;
+    height: 500px;
+    position: relative;
+    flex-direction: column;
+}
+
+.smartImg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.smartImg_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.sometext {
+    position: relative;
+    margin: 40px;
+    color: white;
+    font-size: 32px;
+}
